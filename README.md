@@ -1,2 +1,2 @@
 # MAS
-Multi Agent System developed in MATLAB
+Multi Agent System framework developed in MATLAB
