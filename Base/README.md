@@ -1,4 +1,3 @@
-This folder contains the base version of the framework with a simple potential control law
+**This folder contains the base version of the framework using the following potential control law:** 
 
-V_ij = (1/2)*a*|| x_ij ||^2 + 2*b/||x_ij||^2.5
-u_i = sum j \in N_i \nabla_{x_i} V
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{align*}&space;u_i&space;&=&space;-\sum_{j&space;\in&space;N_i}&space;\nabla_{x_i}&space;V_{ij}&space;\\&space;V_{ij}&space;&=&space;\frac{1}{2}a||x_{ij}||^2&space;&plus;&space;\frac{2\,b}{||x_{ij}||^{\frac{5}{2}}}&space;\\&space;\end{align*}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{align*}&space;u_i&space;&=&space;-\sum_{j&space;\in&space;N_i}&space;\nabla_{x_i}&space;V_{ij}&space;\\&space;V_{ij}&space;&=&space;\frac{1}{2}a||x_{ij}||^2&space;&plus;&space;\frac{2\,b}{||x_{ij}||^{\frac{5}{2}}}&space;\\&space;\end{align*}" title="\begin{align*} u_i &= -\sum_{j \in N_i} \nabla_{x_i} V_{ij} \\ V_{ij} &= \frac{1}{2}a||x_{ij}||^2 + \frac{2\,b}{||x_{ij}||^{\frac{5}{2}}} \\ \end{align*}" /></a>
