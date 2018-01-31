@@ -1,5 +1,5 @@
 % Framework developed for simulating multi-agent systems
-function [MAS,total_time,mean_vel,f] = RunMAS(n,opt,method,ros,gazebo,RobIDs,showGraphics)
+function [MAS] = RunMAS(n,opt,method,ros,gazebo,RobIDs,showGraphics)
 
 %% Basic setup
 close all
@@ -124,10 +124,10 @@ MAS = simMAS(MAS);
 cleanGraphics(MAS);
 
 %% Show Speed
-[total_time,mean_vel,f] = plotAgentsSpeed(MAS);
+plotAgentsSpeed(MAS);
 
 %% Show Distance
-if n<5
+if n<7
     plotAgentsDistance(MAS);
 end
 
